@@ -22,7 +22,7 @@ RSpec.describe Customer do
       before do
         customer.add_rental(rental)
       end
-      it { is_expected.to eq "Rental Record for abe\n\tLeon\t2\nAmount owed is 2\nYou earned 1 frequent_renter_points" }
+      it { is_expected.to eq "Rental Record for abe\n\tLeon\t2\nAmount owed is 2\nYou earned 1 frequent renter points" }
     end
   end
 end
