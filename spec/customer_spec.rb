@@ -7,7 +7,7 @@ RSpec.describe Customer do
   let(:customer){ Customer.new(name) }
   describe '#add_rental' do
     it 'inclease rentals' do
-      expect{ customer.add_rental(rental) }.to change{customer.rentals.size}.by(1)
+      expect{ customer.add_rental(rental) }.to change{ customer.rentals.size }.by(1)
     end
   end
   describe '#initialize' do
